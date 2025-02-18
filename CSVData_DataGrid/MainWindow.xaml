@@ -1,0 +1,16 @@
+﻿<Window x:Class="CSVData_DataGrid.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSVData_DataGrid"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid Background="#f8f9fa">
+            <Button Click="Button_Click" Content="Import CSV" VerticalAlignment="Top" Margin="20" Height="40" Width="150" FontWeight="Bold" FontSize="20" Foreground="#6526f1" Background="#c8b4f4" HorizontalAlignment="Right"/>
+            <DataGrid x:Name="CsvDataGrid" Margin="20 70 20 20"></DataGrid>
+        </Grid>
+
+    </Grid>
+</Window>
