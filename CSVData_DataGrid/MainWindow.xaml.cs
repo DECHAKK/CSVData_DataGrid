@@ -13,9 +13,7 @@ using Microsoft.VisualBasic.FileIO;
 
 namespace CSVData_DataGrid
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+ 
     public partial class MainWindow : Window
     {
         public MainWindow()
